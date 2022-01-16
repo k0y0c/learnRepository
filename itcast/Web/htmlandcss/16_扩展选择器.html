@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>扩展选择器</title>
+    <style>
+        /*子选择器*/
+        div p{
+            color: red;
+        }
+        div > p {
+            border: 1px solid;
+        }
+        input[type="text"]{
+            border: 5px solid;
+        }
+        a:link{
+            color: pink;
+        }
+        a:hover{
+            color: green;
+        }
+        a:active{
+            color: yellow;
+        }a:visited{
+             color: red;
+         }
+
+    </style>
+</head>
+<body>
+
+    <div>
+        <p>白日依山尽</p>
+        <p>1234455667766</p>
+    </div>
+    <p>黄河入海流</p>
+    <div>aaaa</div>
+
+    <input type="text">
+    <input type="password">
+    <br/>
+
+    <a href="#">百度一下</a>
+
+
+
+</body>
+</html>
